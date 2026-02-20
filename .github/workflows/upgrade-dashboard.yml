@@ -10,8 +10,7 @@ on:
       - main
     paths:
       - 'workspaces/*/backstage.json'
-  schedule:
-    - cron: '0 6 * * MON'  # run at 6 AM UTC every week on Monday
+
   workflow_dispatch: # allow manual triggers
 
 jobs:
