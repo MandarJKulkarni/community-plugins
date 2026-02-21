@@ -1,10 +1,4 @@
 name: Auto Version Bump Scheduler
-
-on:
-  schedule:
-    # Run on Tuesdays at 13:00 UTC to check for Backstage releases
-    - cron: '0 13 * * 2'
-
 concurrency:
   group: auto-version-bump-scheduler
   cancel-in-progress: false
